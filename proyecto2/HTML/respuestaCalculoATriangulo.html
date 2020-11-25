@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PARCIAL #3 APLICACIONES DE INTERNET</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="PARCIAL 3 CORTE">
+    <link rel="stylesheet" href="../CSS/ficha1.css">
+    <link rel="stylesheet" href="../CSS/TRIANGULO.css">
+    <link rel="stylesheet" href="../CSS/CUADRADO.CSS">
+    <link rel="stylesheet" href="../CSS/3d.CSS">
+    <link rel="stylesheet" href="../CSS/ecuacion.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+    <!--TRINAGULO-->
+
+    <div class="caja1">
+        <div style="width:30%">
+            <center>
+                <img src="../IMG/TRIANGULO.svg" class="imagen_tri">
+            </center>
+
+
+            <p class="textos">TRIANGULO</p>
+            <center>
+                <form action="../index.html">
+                    <input class="boton1" type="submit" value="Volver a inicio" />
+                </form>
+            </center>
+
+        </div>
+        <div style="width:80%">
+            <form action="../PHP/Calcula_Triangulo_area.php" method="POST">
+                <trilo class="trilo" size="40">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LA BASE" name="Baset">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LA ALTURA" name="Alturat">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <input type="submit" class="boton1" id="boton" value="CALCULAR EL AREA" onclick="calculaTriangulo()">
+
+                </trilo>
+            </form>
+                <trilo class="trilo">
+                    <p CLASS="result">EL AREA ES : {respuestaAreatriangulo}</p>
+                </trilo>
+                <trilo class="trilo">
+                     <p class="config_parrafos_respuestas">Click aquí para ver el registro de todos los cálculos realizados </p>  
+                     <form action="../PHP/mostrarRegistrosTrianguloA.php" method="POST">
+                        <input type="submit" value="VER REGISTRO">
+                    </form>
+                </trilo>
+            
+        </div>
+
+</body>
+
+</html>

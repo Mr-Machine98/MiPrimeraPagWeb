@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>respuestaCalculoEcuacion</title>
+
+    <link rel="stylesheet" href="../CSS/ecuacion.css">
+    <link rel="stylesheet" href="../CSS/CUADRADO.CSS">
+
+
+    <style>
+        body {
+            background-color: #31364E;
+        }
+        
+        #textarea {
+            width: 30rem;
+            height: 10rem;
+            margin-left: 4rem;
+        }
+        
+        #p1 {
+            margin-left: 4rem;
+            font-size: 30px;
+        }
+        
+        #p2 {
+            margin-left: 4rem;
+            font-size: 20px;
+        }
+        
+        a {
+            margin-left: 4rem;
+            font-size: 20px;
+        }
+        
+        #id1 {
+            margin-left: 3rem;
+            margin-bottom: 0%;
+        }
+        
+        #btn1 {
+            margin-left: 3rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="recuadro_azul ">
+
+        <h1>Punto #2</h1>
+
+
+
+        <div>
+            <img class="parametros_img_ecua " src="../IMG/ecuacion.svg" alt="imagen_ecuacion ">
+
+        </div>
+
+
+        <div>
+            <p id="p1">Respuesta: {r}</p>
+            <p id="p2">Cadena de texto para pegar en la caja de WolframAlfa.</p>
+            <div>
+                <textarea name="" id="textarea" cols="30" rows="20">{cadena}</textarea>
+            </div>
+
+
+            <a href="../index.html">VOLVER A INICIO</a>
+
+            <a href="https://www.wolframalpha.com/">: Enlace para WolframAlfa</a>
+
+            <p id="id1">Click aquí para ver el registro de todos los campos llenados anteriormente
+                <form action="../PHP/mostrarRegistrosEcuacion.php" method="POST"><input type="submit" value="VER REGISTRO" id="btn1"></form>
+            </p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.recuadro_azul {
+    width: auto;
+    height: 700px;
+    left: calc(50% - 1200px/2);
+    top: 950px;
+    margin: 1em;
+    border-radius: 1EM;
+    background: #23AEAE;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.parametros_img_ecua {
+    width: 70rem;
+    height: 11rem;
+}
+
+h1 {
+    padding-left: 4rem;
+    color: white;
+}
+
+.section_variables {
+    width: 6%;
+}
+
+.section_calculo_respuestas {
+    display: flex;
+}
+
+.estilos_parrafos {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 16px;
+    font: bold;
+    color: white;
+}
+
+.section_inputs {
+    height: 2rem;
+    display: grid;
+    width: 50%;
+}
+
+.parametros_cajas {
+    width: 30rem;
+    padding: -1rem;
+    margin-top: 3rem;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    background: #f7f5f5;
+    font-weight: bold;
+    border-left: 8px solid #ff0080;
+}
+
+.section_respuesta_formula {
+    width: 44%;
+}
+
+.botones_formula {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.botones_formula:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+#enlace {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 4rem;
+}
+
+#textarea {
+    width: 30rem;
+}

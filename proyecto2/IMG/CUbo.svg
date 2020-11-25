@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75001"
+   version="1.1"
+   id="svg51"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="CUbo.svg">
+  <defs
+     id="defs45">
+    <inkscape:path-effect
+       effect="perspective-envelope"
+       up_left_point="138.33928,167.82143"
+       up_right_point="179.91668,140.60713"
+       down_left_point="138.33928,276.67857"
+       down_right_point="179.1607,240.39286"
+       id="path-effect148"
+       is_visible="true"
+       lpeversion="1"
+       deform_type="perspective"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       overflow_perspective="false" />
+    <inkscape:path-effect
+       effect="perspective-envelope"
+       up_left_point="77.863097,139.8512"
+       up_right_point="179.91668,140.60713"
+       down_left_point="9.0714299,167.82143"
+       down_right_point="138.33928,167.82143"
+       id="path-effect146"
+       is_visible="true"
+       lpeversion="1"
+       deform_type="perspective"
+       horizontal_mirror="false"
+       vertical_mirror="false"
+       overflow_perspective="false" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 137.25 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="210 : 137.25 : 1"
+       inkscape:persp3d-origin="105 : 87.750001 : 1"
+       id="perspective91" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="523.61598"
+     inkscape:cy="560"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata48">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect139"
+       style="fill:#ff0000;stroke:#000000;stroke-width:1.05833;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 138.33928,95.25 H 267.60713 V 204.10714 H 138.33928 Z m 129.26786,0 41.5774,-27.2143 -0.75598,99.78573 -40.82142,36.28571 z M 207.13095,67.27977 309.18454,68.0357 267.60714,95.25 H 138.33929 Z"
+       inkscape:transform-center-x="-4.6788291"
+       inkscape:transform-center-y="-1.8361228" />
+  </g>
+  <inkscape:templateinfo>
+    <inkscape:name>Aldemar</inkscape:name>
+    <inkscape:shortdesc>CUBO</inkscape:shortdesc>
+    <inkscape:date>2020-08-30</inkscape:date>
+  </inkscape:templateinfo>
+  <inkscape:templateinfo>
+    <inkscape:name>Aldemar CUBO</inkscape:name>
+    <inkscape:shortdesc>CUBO</inkscape:shortdesc>
+    <inkscape:date>2020-08-30</inkscape:date>
+  </inkscape:templateinfo>
+</svg>

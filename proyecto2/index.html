@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PARCIAL #3 APLICACIONES DE INTERNET</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="PARCIAL 3 CORTE">
+    <link rel="stylesheet" href="CSS/ficha1.css">
+    <link rel="stylesheet" href="CSS/TRIANGULO.css">
+    <link rel="stylesheet" href="CSS/CUADRADO.CSS">
+    <link rel="stylesheet" href="CSS/3d.CSS">
+    <link rel="stylesheet" href="CSS/ecuacion.css">
+
+
+</head>
+
+
+
+<body>
+
+    <!--INICIO-->
+    <div class="cuadros_texto">
+
+        <div class="titulo1">
+            <h1>Parcial #3, Versión: PHP + SQL</h1>
+        </div>
+
+        <div class="content_1">
+            <p>Estudiantes:</p>
+            <p>Aldemar Bernal Hernandez</p>
+            <p>Juan Camilo Mamian Ruiz</p>
+        </div>
+
+        <div class="content_2">
+            <img class="logo_u" src="IMG/Frame 1.svg" alt="Imagen">
+            <p class="titulo_u">Universidad Libre Seccional Cali</p>
+        </div>
+
+    </div>
+
+
+    <!--CUADRADO-->
+
+    <div class="cuadros_texto_1">
+
+
+        <div class="rebanada1">
+            <h2>Punto #1</h2>
+            <img class="imagen_cuadrado" src="IMG/CUADRADO.svg" alt="cuadrado">
+            <p class="config_parrafos">Lado 1</p>
+            <p class="config_titulo_figura">CUADRADO</p>
+        </div>
+
+        <p id="lado2">Lado 2</p>
+
+
+        <div class="rebanada3">
+
+
+            <!--SECCION FORM 1 A PHP-->
+
+            <form action="PHP/calcula_AreaPerimetro.php" method="POST">
+
+                <input id="cajaCuadrado" class="caja_texto_cuadrado" type="text" maxlength="20" placeholder="Ingresa la magnitud del lado" name="caja_ingresa_magn_cuadrado">
+                <div class="section_botones">
+                    <!--BOTONES-->
+                    <input type="submit" class="botones" value="CALCULAR ÁREA Y PERÍMETRO">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--CUADRADO-->
+
+
+    <!--TRINAGULO-->
+
+    <div class="caja1">
+        <div class="seccion">
+            <center>
+                <img src="IMG/TRIANGULO.svg" class="imagen_tri">
+            </center>
+            <p class="textos">TRIANGULO</p>
+        </div>
+        <div class="seccion2">
+            <form action="PHP/Calcula_Triangulo_area.php" method="POST">
+                <trilo class="trilo" size="40">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LA BASE" name="Baset">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LA ALTURA" name="Alturat">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <input type="submit" class="boton1" id="boton" value="CALCULAR EL ÁREA" onclick="calculaTriangulo()">
+                </trilo>
+                <trilo class="trilo">
+                </trilo>
+            </form>
+        </div>
+        <div class="seccion3">
+            <form action="PHP/Calcula_Triangulo_perimetro.php" method="POST">
+                <trilo class="trilo" size="40">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LADO 1" name="tlado1">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LADO 2" name="tlado2">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <center>
+                        <input class="txtcaja" maxlength="5" placeholder="INGRESAR LADO 3" name="tlado3">
+                    </center>
+                </trilo>
+                <trilo class="trilo">
+                    <input type="submit" class="boton1" value="CALCULAR EL PERÍMETRO" onclick="calculaPerimetroTriangulo()">
+                </trilo>
+                <trilo class="trilo">
+                </trilo>
+            </form>
+        </div>
+    </div>
+    <!--TRINAGULO-->
+
+    <!--FORMAS 3D-->
+    <div class="caja2">
+        <div class="seccion3d1">
+            <form action="PHP/Calcula_3D_cubo.php" method="POST">
+                <div class="titulo3d">
+                    <p class="textos2">CUBO</p>
+                </div>
+                <center>
+                    <div class="i3d" aling="center">
+                        <img src="IMG/CUbo.svg" class="imagen_tri2">
+                    </div>
+                </center>
+                <center>
+                    <input class="txtcaja3d" maxlength="5" placeholder="INGRESAR MAGNITUD LADO" name="ladocub">
+                </center>
+                <div class="cubolo">
+                    <div class="seccion4d1">
+                        <div class="trill">
+                            <center>
+                                <input type="submit" class="boton3d1" value="CALCULAR ÁREA Y VOLUMEN" onclick="calculaAreaCubo()">
+                            </center>
+                        </div>
+
+                    </div>
+                    <div class="seccion4d1">
+                        <div class="trill2">
+
+                        </div>
+                        <div class="trill2">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="seccion3d2">
+            <form action="PHP/Calcula_3D_esfera.php" method="POST">
+
+                <div class="titulo3d">
+                    <p class="textos2">ESFERA</p>
+                </div>
+                <center>
+                    <div class="i3d" aling="center">
+                        <img src="IMG/ESFERA.svg" class="imagen_tri2">
+                    </div>
+                </center>
+                <center>
+                    <input class="txtcaja3d" maxlength="5" placeholder="INGRESAR MAGNITUD RADIO" name="areaes">
+                </center>
+                <div class="cubolo">
+                    <div class="seccion4d1">
+                        <div class="trill">
+                            <center>
+                                <input type="submit" class="boton3d1" value="CALCULAR ÁREA Y VOLUMEN" onclick="CaluclaAreaEsfera()">
+                            </center>
+                        </div>
+                    </div>
+                    <div class="seccion4d1 ">
+                        <div class="trill2 ">
+                        </div>
+                        <div class="trill2 ">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--FÖRMULA-->
+
+    <div class="recuadro_azul ">
+
+        <h1>Punto #2</h1>
+        <div>
+            <img class="parametros_img_ecua " src="IMG/ecuacion.svg " alt="imagen_ecuacion ">
+
+        </div>
+
+        <form action="PHP/logicaEcuacion.php" method="POST">
+
+            <div class="section_calculo_respuestas ">
+
+                <div class="section_variables ">
+                    <p class="estilos_parrafos ">a :</p>
+                    <p class="estilos_parrafos ">b :</p>
+                    <p class="estilos_parrafos ">c :</p>
+                    <p class="estilos_parrafos ">d :</p>
+                    <p class="estilos_parrafos ">e :</p>
+
+                </div>
+
+                <!--
+                Sección para el form de la ecuación.
+            -->
+
+                <div class="section_inputs ">
+                    <input name="caja_a" id="a" class="parametros_cajas " type="text " placeholder="Ingresa valor para a ">
+
+                    <input name="caja_b" id="b" class="parametros_cajas " type="text " placeholder="Ingresa valor para b ">
+
+                    <input name="caja_c" id="c" class="parametros_cajas " type="text " placeholder="Ingresa valor para c ">
+
+                    <input name="caja_d" id="d" class="parametros_cajas " type="text " placeholder="Ingresa valor para d ">
+
+                    <input name="caja_e" id="e" class="parametros_cajas " type="text " placeholder="Ingresa valor para e ">
+                </div>
+                <div class="section_respuesta_formula ">
+                    <p id="parrafoEcua">Presiona el botón para calcular y generar la ecuación.</p>
+                    <input type="submit" class="botones_formula" value="Calcular y generar ecuación" id="btn">
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

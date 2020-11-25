@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PARCIAL #3 APLICACIONES DE INTERNET</title>
+
+    <meta charset="UTF-8">
+    <meta name="title" content="PARCIAL 3 CORTE">
+    <link rel="stylesheet" href="../CSS/CUADRADO.CSS">
+
+    <style>
+        a {
+            margin-top: 4rem;
+            margin-left: 4rem;
+            color: gold;
+            font-size: 20px;
+        }
+    </style>
+
+
+</head>
+
+
+
+<body style="background-color: #31364E;" style="font-family: Arial, Helvetica, sans-serif">
+
+    <!--CUADRADO-->
+
+    <div class="cuadros_texto_1">
+
+
+        <div class="rebanada1">
+            <h2>Punto #1</h2>
+            <img class="imagen_cuadrado" src="../IMG/CUADRADO.svg" alt="cuadrado">
+            <p class="config_parrafos">Lado 1</p>
+            <p class="config_titulo_figura">CUADRADO</p>
+        </div>
+
+
+
+
+
+        <p id="lado2">Lado 2</p>
+
+
+        <div class="rebanada3">
+
+
+            <!--SECCION FORM 1 A PHP-->
+
+            <form action="../PHP/calcula_AreaPerimetro.php" method="POST">
+
+
+                <input id="cajaCuadrado" class="caja_texto_cuadrado" type="text" maxlength="20" placeholder="Ingresa la magnitud del lado" name="caja_ingresa_magn_cuadrado">
+
+                <div class="section_botones">
+
+                    <!--BOTONES-->
+
+                    <input type="submit" class="botones" value="CALCULAR ÁREA Y PERÍMETRO">
+
+                    <a href="../index.html">VOLVER A INICIO</a>
+                </div>
+            </form>
+            <!--RESPUESTAS A COLOCAR PHP-->
+            <div class="section_respuestas">
+                <div class="margin">
+                    <p class="config_parrafos_respuestas">El área del cuadrado es:</p>
+                    <p class="config_parrafos_respuestas">Respuesta: {respuestaArea}</p>
+                </div>
+                <div class="margin">
+                    <p class="config_parrafos_respuestas">El perÍmetro del cuadrado es:</p>
+                    <p class="config_parrafos_respuestas">Respuesta: {respuestaPerimetro}</p>
+                    <p class="config_parrafos_respuestas">Click aquí para ver el registro de todos los campos llenados anteriormente
+                        <form action="../PHP/mostrarRegistrosCuadrado.php" method="POST">
+                            <input type="submit" value="VER REGISTRO">
+                        </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CUADRADO-->
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PARCIAL #3 APLICACIONES DE INTERNET</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="PARCIAL 3 CORTE">
+    <link rel="stylesheet" href="../CSS/ficha1.css">
+    <link rel="stylesheet" href="../CSS/TRIANGULO.css">
+    <link rel="stylesheet" href="../CSS/CUADRADO.CSS">
+    <link rel="stylesheet" href="../CSS/3d.CSS">
+    <link rel="stylesheet" href="../CSS/ecuacion.css">
+
+
+</head>
+
+
+
+<body>
+    <center>
+        <form action="../index.html">
+            <input class="boton1" type="submit" value="Volver a inicio" />
+        </form>
+    </center>
+
+
+    <!--FORMAS 3D-->
+    <div class="caja2">
+        <div style="width:100%">
+            
+                <div class="titulo3d">
+                    <p class="textos2">ESFERA</p>
+                </div>
+                <center>
+                    <div class="i3d" aling="center">
+                        <img src="../IMG/ESFERA.svg" class="imagen_tri2">
+                        <trilo class="trilo">
+                            <p class="config_parrafos_respuestas">Click aquí para ver el registro de todos los cálculos realizados</p>  
+                            <form action="../PHP/mostrarRegistrosEsfera.php" method="POST">
+                               <input type="submit" value="VER REGISTRO">
+                           </form>
+                       </trilo>
+
+                    </div>
+                    <form action="../PHP/Calcula_3D_esfera.php" method="POST">
+
+                </center>
+                <center>
+                    <input class="txtcaja3d" maxlength="5" placeholder="INGRESAR MAGNITUD RADIO" name="areaes">
+                </center>
+                <div class="cubolo">
+                    <div class="seccion4d1">
+                        <div class="trill">
+                            <center>
+                                <input type="submit" class="boton3d1" value="CALCULAR ÁREA Y VOLUMEN" onclick="CaluclaAreaEsfera()">
+                            </center>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="seccion4d1 ">
+                        <div class="trill2 ">
+                            <p class="result3d ">El área de la esfera es: {areaes} </p>
+                        </div>
+                        <div class="trill2 ">
+                            <p class="result3d ">El volumen de la esfera es: {volumenes}<output id="volumenesfera"></output></p>
+
+                        </div>
+                    </div>
+
+                </div>
+            
+
+        </div>
+    </div>
+</body>
+
+</html>
